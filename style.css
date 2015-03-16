@@ -1,0 +1,218 @@
+#exchange_logo{
+	float: left;
+	margin-left: 1em;
+}
+
+#welcome_text, .login{
+	text-align: center;
+	margin-top: 2em;
+}
+
+.loggin-button{
+	margin-top: -2em;
+}
+
+.learn_more{
+	padding-top: 20em;
+}
+
+#scroll{
+	margin-bottom: 2em;
+}
+
+#section_2{
+	background-color: #6E8666;
+	padding-bottom: 4em;
+	color: white;
+}
+
+.who_we_are{
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.who_we_are_images{
+	float: left;
+	padding-left: 2em;
+}
+
+#who_we_are_row{
+	display: inline-block;
+    float: none !important;
+    margin: 0 auto;
+}
+
+#who_we_are_header{
+	padding-top: 1em;
+}
+
+#who_we_are_text{
+	padding: 0em 4em 0em 4em;
+}
+
+#our_values{
+	margin-bottom: 1em;
+}
+
+.our_values, #id_confirmed, .safety_measures{
+	text-align: center;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.safety_measures{
+	margin-bottom: 2em;
+}
+
+.safety_measures_points{
+	padding-right: 10em;
+	padding-left: 10em;
+	padding-bottom: 1em;
+}
+
+#safety_measurs_header{
+	padding-top: 1em;
+}
+
+.cities{
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    text-align: center;
+  }
+
+  .navbar-header {
+    display: inline-block;
+    float: none !important;
+    margin: 0 auto;
+  }
+}
+
+#exchange_logo{
+	content: url('assets/exchange_tree_logo.png');
+	width: 200px;
+	height: 160px;
+	padding-left: 3em;
+	padding-top: 1em;
+}
+
+#section_1{
+	background-image: url('assets/section_1.jpg')
+}
+
+#navbar_1{
+	content: url('assets/navbar_1.png')
+}
+
+#navbar_2{
+	content: url('assets/navbar_2.png')
+}
+
+#navbar_3{
+	content: url('assets/navbar_3.png')
+}
+
+#navbar_4{
+	content: url('assets/navbar_4.png')
+}
+
+#navbar_5{
+	content: url('assets/navbar_5.png')
+}
+
+#navbar_6{
+	content: url('assets/navbar_6.png')
+}
+
+#landing_page{
+	text-align: center;
+}
+
+#welcome_to_exchange_tree{
+	content: url('assets/welcome_to_exchange_tree.png');
+	width: 600px;
+	height: 200px;
+	display: inline-block;
+    float: none !important;
+    margin: 0 auto;
+    padding-top: 5em;
+}
+
+.section_1{
+
+}
+
+#privacy_disclaimer, #scroll{
+	color: white;
+	font-size: 12px;
+}
+
+#section_4{
+	background-image: url('assets/id_confirmed_background.jpg');
+	text-align: center;
+}
+
+#id_confirmed{
+	content: url('assets/id_confirmed.png');
+	display: inline-block;
+    float: none !important;
+    margin: 0 auto;
+}
+
+#section_5{
+	background-color: #EFDDC7;
+	padding-bottom: 3em;
+}
+
+#section_6{
+	text-align: center;
+}
+
+#US_map{
+	display: inline-block;
+    float: none !important;
+    margin: 0 auto;
+}
+
+#US_map{
+	content: url('assets/US_map.png');
+	height: 500px;
+	width: 800px;
+}
+
+#cities{
+	color: #52B0BE;
+}
+
+#who_we_are_image_2{
+	content: url('assets/who_we_are_image_2');
+	width: 100px;
+	height: 100px;
+}
+
+.cities_list li{
+	list-style-type: none;
+	color: #52B0BE;
+}
+
+.cities_section{
+	float: left;
+	padding-top: 2em;
+}
+
+#cities_row{
+	text-align: center;
+	padding-top: 2em;
+}
+
+.cities_section{
+	float: none;
+	margin: 0 auto;
+	display: inline-block;
+}
