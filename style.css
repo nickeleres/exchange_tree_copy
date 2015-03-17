@@ -190,8 +190,32 @@
 	color: #52B0BE;
 }
 
+#who_we_are_image_1{
+	content: url('assets/who_we_are_image_1');
+	width: 100px;
+	height: 100px;
+}
+
 #who_we_are_image_2{
 	content: url('assets/who_we_are_image_2');
+	width: 100px;
+	height: 100px;
+}
+
+#who_we_are_image_3{
+	content: url('assets/who_we_are_image_3');
+	width: 100px;
+	height: 100px;
+}
+
+#who_we_are_image_4{
+	content: url('assets/who_we_are_image_4');
+	width: 100px;
+	height: 100px;
+}
+
+#who_we_are_image_5{
+	content: url('assets/who_we_are_image_5');
 	width: 100px;
 	height: 100px;
 }
