@@ -55,6 +55,7 @@
 #section_3{
 	padding-top: 2em;
 	padding-bottom: 2em;
+	color: #3D4A39;
 }
 
 #our_values{
@@ -67,6 +68,7 @@
 
 #our_values_list li{
 	list-style-type: none;
+	color: #3D4A39;
 }
 
 .our_values_list_bold{
@@ -191,6 +193,7 @@
 
 #section_6{
 	text-align: center;
+	padding-bottom: 3em;
 }
 
 #US_map{
@@ -264,3 +267,29 @@
 	margin: 0 auto;
 	display: inline-block;
 }
+
+#footer_section{
+	background-color: #3E4B39;
+	padding-bottom: 4em;
+	color: white;
+}
+
+.href{
+    color: white;
+}
+
+.footer_menu{
+	list-style-type: none;
+	font-size: 10px;
+	display: inline-block;
+	padding-top: 1em;
+}
+
+.social_media_icon{
+	content: url('assets/facebook.png');
+	float: left;
+	margin-left: 0.5em;
+	padding-top: 1em;
+	float: right;
+}
+
