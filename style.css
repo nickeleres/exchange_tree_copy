@@ -52,12 +52,31 @@
 	padding: 0em 4em 0em 4em;
 }
 
+#section_3{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
 #our_values{
 	margin-bottom: 1em;
 }
 
 .our_values, #id_confirmed, .safety_measures{
 	text-align: center;
+}
+
+#our_values_list li{
+	list-style-type: none;
+}
+
+.our_values_list_bold{
+	font-weight: bold;
+}
+
+.our_values_points{
+	padding-right: 10em;
+	padding-left: 10em;
+	padding-bottom: 1em;
 }
 
 .bold{
@@ -191,33 +210,38 @@
 }
 
 #who_we_are_image_1{
-	content: url('assets/who_we_are_image_1');
-	width: 100px;
-	height: 100px;
+	content: url('assets/who_we_are_image_1.jpg');
+	width: 200px;
+	height: 150px;
+	border-radius: 50%
 }
 
 #who_we_are_image_2{
-	content: url('assets/who_we_are_image_2');
-	width: 100px;
-	height: 100px;
+	content: url('assets/who_we_are_image_2.jpg');
+	width: 200px;
+	height: 150px;
+	border-radius: 50%
 }
 
 #who_we_are_image_3{
-	content: url('assets/who_we_are_image_3');
-	width: 100px;
-	height: 100px;
+	content: url('assets/who_we_are_image_3.jpg');
+	width: 200px;
+	height: 150px;
+	border-radius: 50%
 }
 
 #who_we_are_image_4{
-	content: url('assets/who_we_are_image_4');
-	width: 100px;
-	height: 100px;
+	content: url('assets/who_we_are_image_4.jpg');
+	width: 200px;
+	height: 150px;
+	border-radius: 50%
 }
 
 #who_we_are_image_5{
-	content: url('assets/who_we_are_image_5');
-	width: 100px;
-	height: 100px;
+	content: url('assets/who_we_are_image_5.jpg');
+	width: 200px;
+	height: 150px;
+	border-radius: 50%
 }
 
 .cities_list li{
