@@ -42,6 +42,7 @@
 	display: inline-block;
     float: none !important;
     margin: 0 auto;
+    padding-top: 2em;
 }
 
 #who_we_are_header{
@@ -223,7 +224,12 @@
 	content: url('assets/who_we_are_image_2.jpg');
 	width: 200px;
 	height: 150px;
-	border-radius: 50%
+	border-radius: 50%;
+	webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
 }
 
 #who_we_are_image_3{
@@ -289,7 +295,7 @@
 	content: url('assets/facebook.png');
 	float: left;
 	margin-left: 0.5em;
-	padding-top: 1em;
+	padding-top: 1.33em;
 	float: right;
 }
 
