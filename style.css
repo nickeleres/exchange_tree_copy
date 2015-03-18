@@ -8,8 +8,21 @@
 	margin-top: 2em;
 }
 
+.login_text{
+	color: white;
+	font-weight: bold;
+}
+
+.email_input{
+	margin-left: -9px;
+}
+
 .loggin-button{
 	margin-top: -2em;
+}
+
+#create_profile_button{
+	border-radius: 50%
 }
 
 .learn_more{
@@ -79,8 +92,9 @@
 
 .our_values_points{
 	padding-right: 10em;
-	padding-left: 10em;
+	padding-left: 7em;
 	padding-bottom: 1em;
+	text-align: left;
 }
 
 .bold{
@@ -167,10 +181,6 @@
     padding-top: 5em;
 }
 
-.section_1{
-
-}
-
 #privacy_disclaimer, #scroll{
 	color: white;
 	font-size: 12px;
@@ -179,6 +189,7 @@
 #section_4{
 	background-image: url('assets/id_confirmed_background.jpg');
 	text-align: center;
+	padding-top: 2em;
 }
 
 #id_confirmed{
@@ -190,7 +201,7 @@
 
 #section_5{
 	background-color: #EFDDC7;
-	padding-bottom: 3em;
+	padding-bottom: 4em;
 }
 
 #section_6{
@@ -301,14 +312,14 @@
 	list-style-type: none;
 	font-size: 10px;
 	display: inline-block;
-	padding-top: 1em;
+	padding-top: 2em;
 }
 
 .social_media_icon{
 	content: url('assets/facebook.png');
 	float: left;
 	margin-left: 0.5em;
-	padding-top: 1.33em;
+	padding-top: 2.33em;
 	float: right;
 }
 
