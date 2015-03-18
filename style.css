@@ -22,15 +22,14 @@
 
 #section_2{
 	background-color: #6E8666;
-	padding-bottom: 4em;
+	padding-bottom: 6em;
 	color: white;
+	text-align: center;
 }
 
 .who_we_are{
 	text-align: center;
-	position: relative;
 	width: 100%;
-	height: auto;
 }
 
 .who_we_are_images{
@@ -55,8 +54,9 @@
 
 #section_3{
 	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-bottom: 3em;
 	color: #3D4A39;
+	text-align: center;
 }
 
 #our_values{
@@ -74,6 +74,7 @@
 
 .our_values_list_bold{
 	font-weight: bold;
+	margin-bottom: -3px;
 }
 
 .our_values_points{
@@ -215,9 +216,9 @@
 
 #who_we_are_image_1{
 	content: url('assets/who_we_are_image_1.jpg');
-	width: 200px;
-	height: 150px;
-	border-radius: 50%
+	width: 199px;
+	height: 149px;
+	border-radius: 70%
 }
 
 #who_we_are_image_2{
@@ -251,6 +252,18 @@
 	width: 200px;
 	height: 150px;
 	border-radius: 50%
+}
+
+.who_we_are_text{
+	font-size: 12px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.who_we_are_blurbs{
+	display: inline-block;
+    float: none !important;
+    margin: 0 auto;
 }
 
 .cities_list li{
