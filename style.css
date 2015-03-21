@@ -11,14 +11,28 @@
 .login_text{
 	color: white;
 	font-weight: bold;
+	padding-right: 2em;
 }
 
-.email_input{
-	margin-left: -9px;
+.login_row{
+	float: right;
 }
 
-.loggin-button{
+#login_container{
+	margin: 0 auto;
+	float: none;
+}
+
+#login_container_parent{
+	text-align: center;
+}
+
+.loggin_button{
 	margin-top: -2em;
+}
+
+.login{
+	margin-right: 6em;
 }
 
 #create_profile_button{
@@ -140,7 +154,8 @@
 }
 
 #section_1{
-	background-image: url('assets/section_1.jpg')
+	background-image: url('assets/section_1.jpg');
+	background-repeat: no-repeat;
 }
 
 #navbar_1{
@@ -188,6 +203,7 @@
 
 #section_4{
 	background-image: url('assets/id_confirmed_background.jpg');
+	background-repeat: no-repeat;
 	text-align: center;
 	padding-top: 2em;
 }
