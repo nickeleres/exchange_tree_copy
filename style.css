@@ -15,7 +15,12 @@
 }
 
 .login_row{
-	float: right;
+	float: left;
+	padding-left: 6em;
+}
+
+#zip_field{
+	padding-left: 1.5em;
 }
 
 #login_container{
@@ -32,7 +37,7 @@
 }
 
 .login{
-	margin-right: 6em;
+	margin-right: 3em;
 }
 
 #create_profile_button{
