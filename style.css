@@ -46,8 +46,14 @@
 }
 
 #create_profile_button{
-	border-radius: 15px;
+	border-radius: 25px;
 	color: #3EADCA;
+	height: 48px;
+	width: 175px;
+	box-shadow: 3px 3px 20px #000000;
+	font-weight: bold;
+	color: white;
+	background-color: #3EADCA;
 }
 
 .learn_more{
@@ -252,17 +258,16 @@
 	color: #52B0BE;
 }
 
-#who_we_are_image_1{
-	content: url('assets/who_we_are_image_1.jpg');
-	width: 199px;
+#who_we_are_image_1 img{
+	/*content: url('assets/who_we_are_image_1.jpg');*/
+	width: 149px;
 	height: 149px;
-	border-radius: 70%
+	border-radius: 50%
 }
 
-#who_we_are_image_2{
-	content: url('assets/who_we_are_image_2.jpg');
-	width: 200px;
-	height: 150px;
+#who_we_are_image_2 img{
+	width: 149px;
+	height: 149px;
 	border-radius: 50%;
 	webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
@@ -271,31 +276,30 @@
     transform: rotate(270deg);
 }
 
-#who_we_are_image_3{
-	content: url('assets/who_we_are_image_3.jpg');
-	width: 200px;
-	height: 150px;
-	border-radius: 50%
+#who_we_are_image_3 img{
+	width: 149px;
+	height: 149px;
+	border-radius: 50%;
 }
 
-#who_we_are_image_4{
-	content: url('assets/who_we_are_image_4.jpg');
-	width: 200px;
-	height: 150px;
-	border-radius: 50%
+#who_we_are_image_4 img{
+	width: 149px;
+	height: 149px;
+	border-radius: 50%;
+	margin-top: -1em;
 }
 
-#who_we_are_image_5{
-	content: url('assets/who_we_are_image_5.jpg');
-	width: 200px;
-	height: 150px;
-	border-radius: 50%
+#who_we_are_image_5 img{
+	width: 149px;
+	height: 149px;
+	border-radius: 50%;
 }
 
 .who_we_are_text{
 	font-size: 12px;
 	text-align: center;
 	margin: 0 auto;
+	margin-top: 1em;
 }
 
 .who_we_are_blurbs{
