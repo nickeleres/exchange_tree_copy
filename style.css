@@ -286,10 +286,15 @@
 	width: 149px;
 	height: 149px;
 	border-radius: 50%;
-	margin-top: -1em;
 }
 
 #who_we_are_image_5 img{
+	width: 149px;
+	height: 149px;
+	border-radius: 50%;
+}
+
+.img-div img{
 	width: 149px;
 	height: 149px;
 	border-radius: 50%;
@@ -306,6 +311,7 @@
 	display: inline-block;
     float: none !important;
     margin: 0 auto;
+    vertical-align: text-top;
 }
 
 .cities_list li{
