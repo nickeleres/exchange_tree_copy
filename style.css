@@ -32,16 +32,22 @@
 	text-align: center;
 }
 
-.loggin_button{
+.loggin{
 	margin-top: -2em;
-}
-
-.login{
 	margin-right: 3em;
 }
 
+.login{
+	color: black;
+}
+
+.input_padding{
+	margin-left: 1em;
+}
+
 #create_profile_button{
-	border-radius: 50%
+	border-radius: 15px;
+	color: #3EADCA;
 }
 
 .learn_more{
