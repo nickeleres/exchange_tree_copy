@@ -73,6 +73,7 @@
 	padding-bottom: 6em;
 	color: white;
 	text-align: center;
+	position: relative;
 }
 
 .who_we_are{
@@ -98,6 +99,25 @@
 
 #who_we_are_text{
 	padding: 0em 4em 0em 4em;
+}
+
+#back_to_top{
+	position: absolute;
+	height:45px;
+    width:90px;
+    border-radius: 90px 90px 0 0;
+    -moz-border-radius: 90px 90px 0 0;
+    -webkit-border-radius: 90px 90px 0 0;
+    background: #A1AE9C;
+    bottom: 0px;
+    margin: 0 auto;
+    float: none;
+    display: inline-block;
+    margin-left: -3em;
+}
+
+#back_to_top_text{
+	margin-top: 1em;
 }
 
 #section_3{
