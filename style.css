@@ -115,6 +115,7 @@
     float: none;
     display: inline-block;
     margin-left: -3.5em;
+    cursor: pointer;
 }
 
 #back_to_top_text{
@@ -332,6 +333,7 @@
 	font-size: 12px;
 	text-align: center;
 	margin: 0 auto;
+	display: inline-block;
 	margin-top: 1em;
 }
 
