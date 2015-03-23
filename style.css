@@ -118,6 +118,9 @@
 
 #back_to_top_text{
 	margin-top: 1em;
+	vertical-align: text-bottom;
+	font-size: 12px;
+	color: #6E8666;
 }
 
 #section_3{
