@@ -110,7 +110,7 @@
     -moz-border-radius: 90px 90px 0 0;
     -webkit-border-radius: 90px 90px 0 0;
     background: #A1AE9C;
-    bottom: 0px;
+    /*bottom: 0px;*/
     margin: 0 auto;
     float: none;
     display: inline-block;
@@ -125,7 +125,14 @@
 	color: #6E8666;
 }
 
+#section_2_back_to_top, #section_3_back_to_top,
+#section_4_back_to_top, #section_5_back_to_top, #section_6_back_to_top{
+	position: absolute;
+	bottom: 0em;
+}
+
 #section_3{
+	position: relative;
 	padding-top: 2em;
 	padding-bottom: 3em;
 	color: #3D4A39;
@@ -249,6 +256,7 @@
 }
 
 #section_4{
+	position: relative;
 	background-image: url('assets/id_confirmed_background.jpg');
 	background-repeat: no-repeat;
 	text-align: center;
@@ -263,11 +271,14 @@
 }
 
 #section_5{
+	text-align: center;
+	position: relative;
 	background-color: #EFDDC7;
 	padding-bottom: 4em;
 }
 
 #section_6{
+	position: relative;
 	text-align: center;
 	padding-bottom: 3em;
 }
