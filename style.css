@@ -102,8 +102,8 @@
 	padding: 0em 4em 0em 4em;
 }
 
-#back_to_top{
-	position: absolute;
+.back_to_top{
+	/*position: absolute;*/
 	height:45px;
     width:90px;
     border-radius: 90px 90px 0 0;
@@ -118,7 +118,7 @@
     cursor: pointer;
 }
 
-#back_to_top_text{
+.back_to_top_text{
 	margin-top: 1em;
 	vertical-align: text-bottom;
 	font-size: 12px;

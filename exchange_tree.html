@@ -104,8 +104,8 @@
 				</div>
 			</div>
 		</div>
-		<div id='back_to_top'>
-			<div id='back_to_top_text'>
+		<div class='back_to_top'>
+			<div class='back_to_top_text'>
 				<div class="row">
 					<span>^</span>
 				</div>
@@ -203,6 +203,14 @@
 				</ul>
 			</div>
 		</div>
+		<div class='back_to_top'>
+			<div class='back_to_top_text'>
+				<div class="row">
+					<span>^</span>
+				</div>
+				<span>back to top</span>
+			</div>
+		</div>
 	</div>
 	<div id='section_2'>
 		<div class="col-sm-2">
@@ -241,7 +249,7 @@
 <script>
 
 $(document).ready(function(){
-	$('body').on('click', function(){
+	$('.back_to_top').on('click', function(){
 		console.log('does jquery work?');
 		$('html, body').animate({scrollTop:0}, 'slow');
 	});
