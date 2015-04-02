@@ -234,8 +234,8 @@
 
 #section_1{
 	background-image: url('assets/section_1.jpg');
-	/*background-repeat: no-repeat;*/
-	background-size: 100% auto;
+	background-repeat: no-repeat;
+	/*background-size: 100% auto;*/
 }
 
 #navbar_1{
@@ -301,6 +301,10 @@
 	position: relative;
 	background-color: #EFDDC7;
 	padding-bottom: 4em;
+}
+
+.safety_measures_points{
+	text-align: left;
 }
 
 #section_6{
