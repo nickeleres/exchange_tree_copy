@@ -87,7 +87,17 @@
 	padding-bottom: 1em;
 }
 
-.who_we_are_images img{
+/*.who_we_are_images img{
+	-webkit-box-shadow: inset 0 0 5px #000000;
+    -moz-box-shadow: inset 0 0 5px #000000;
+    box-shadow: inset 0 0 5px #000000;
+    background: #FFF;
+    border: 1px solid #CCC;
+    position: relative;
+    display: block;
+}*/
+
+.who_we_are_blurbs img{
 	-webkit-box-shadow: inset 0 0 5px #000000;
     -moz-box-shadow: inset 0 0 5px #000000;
     box-shadow: inset 0 0 5px #000000;
@@ -224,7 +234,7 @@
 
 #section_1{
 	background-image: url('assets/section_1.jpg');
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	background-size: 100% auto;
 }
 
