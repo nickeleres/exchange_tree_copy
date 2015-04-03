@@ -234,6 +234,7 @@
 
 #section_1{
 	background-image: url('assets/section_1.jpg');
+	position: relative;
 	background-repeat: no-repeat;
 	/*background-size: 100% auto;*/
 }
